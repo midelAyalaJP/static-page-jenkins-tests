@@ -19,7 +19,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh '''
-                    mv . /home/midelaya/Projects/docker-server-4/apps/app-service/
+                    mv ./* /home/midelaya/Projects/docker-server-4/apps/app-service/
                 '''
                 
             }
